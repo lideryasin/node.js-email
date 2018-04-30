@@ -38,14 +38,14 @@ app.post('/send', (req, res) => {
   /*var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'ysnel.65@gmail.com',
-      pass: '653407706'
+      user: '@gmail.com',
+      pass: ''
     }
   });
   
   var mailOptions = {
-    from: 'ysnel.65@gmail.com',
-    to: 'seref.keser@gmail.com',
+    from: '@gmail.com',
+    to: '@gmail.com',
     subject: 'Sending Email using Node.js',
     text: 'mesaj geldi'
   };
